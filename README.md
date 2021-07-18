@@ -1,1 +1,1 @@
-Primeiro esqueleto de landing page, a ser aprimorada!
+Primeira landing page, a ser aprimorada!
