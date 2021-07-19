@@ -6,24 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Black Friday!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <section class="section-container background-section-one">
-        <img src="assets/logo.png" alt="Logotipo">
+        <img src="assets/logo.png" alt="Logotipo" class="logo">
+        <div class="produtos">
+            <img src="assets/camera.png" alt="camera">
+            <img src="assets/XPS.png" alt="XPS notebook">
+            <img src="assets/headphones.png" alt="headphones">
+        </div>
     </section>
     <section class="section-container background-section-two">
+        <div class="promocional">
+            <h2>
+                Receba as promoções em primeira mão.
+            </h2>
+            <h3>
+                <strong>Inscreva-se já!</strong>
+            </h3>
+        </div>
         <div class="card-container">
             <div id="content">
                 <form id="form">
-                    <input type="text" placeholder="name" id="nome">
-                    <input type="text" placeholder="email" id="email">
-                    <input type="submit" value="Cadastrar">
+                    <input type="text" placeholder="Seu nome" id="nome">
+                    <input type="text" placeholder="Seu e-mail" id="email">
+                    <input type="submit" value="Cadastrar!" id="submit">
                 </form>
             </div>
         </div>
     </section>
 <footer>
     <p>Todos os direitos reservados.</p>
+    <p>Feito por Lika Oyama</p>
+    <br>
+    <a href="https://github.com/likaoyama">Link para o meu GitHub</a>
 </footer>
 
 </body>

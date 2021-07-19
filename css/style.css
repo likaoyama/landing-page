@@ -7,8 +7,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.logo {
+    width: 60rem;
+    display: flex;
+}
+
 .section-container {
-    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,17 +20,40 @@ html {
 }
 
 .background-section-one {
+    height: 100vh;
     background-image: url(../assets/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+}
+
+.produtos img {
+    width: 250px;
+    height: 200px;
+    display: flexbox;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.background-section-two {
+    height: 100vh;
+    background-image: url(../assets/background2.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.background-section-two {
-    background-image: url(../assets/background2.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+.promocional {
+    color: rgb(255,0,0);
+    background-color: rgba(209, 224, 224, .7);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card-container {
@@ -45,6 +72,10 @@ input {
     border-radius: 12px;
     background: #000;
     color: #fff;
+}
+
+#submit{
+    background-color: rgb(244, 23, 0);
 }
 
 footer {
